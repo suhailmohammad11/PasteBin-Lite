@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: #ffffff53;
+}
+
+a {
+    text-decoration: none;
+    color: #282f2ebc
+}

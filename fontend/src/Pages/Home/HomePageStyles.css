@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #bfd8bb;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: white;
+    font-family: "REM", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

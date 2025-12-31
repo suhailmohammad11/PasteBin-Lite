@@ -1,0 +1,27 @@
+.view-paste {
+    display: flex;
+    flex-direction: column;
+    background-color: #4682B4;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.paste-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: medium;
+    font-family: "REM", sans-serif;
+    color: rgba(255, 255, 255, 0.601);
+}
+
+.paste-content {
+    font-size: 23px;
+    background-color: #1e1b1b73;
+    padding: 20px;
+    color: rgba(230, 223, 223, 0.922);
+    border-radius: 13px;
+    font-family: "Inter", sans-serif;
+}
