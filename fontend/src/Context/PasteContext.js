@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from "react";
 const PasteContext = createContext();
 export const usePaste = () => useContext(PasteContext);
 
-const BASE_URL = "http://localhost:4000"; // backend URL
+const BASE_URL = "https://pastebin-lite-9xdo.onrender.com"; // backend URL
 
 export const PasteProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
